@@ -9,9 +9,11 @@
 
         public string Descricao { get; set; }
         
-        public int DataLancamento { get; set; }
+        public string DataLancamento { get; set; }
 
         public decimal Valor { get; set; }
+
+        public int IdEstudio { get; set; }
 
         public EstudioDomain Estudio { get; set; }
 

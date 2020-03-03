@@ -12767,6 +12767,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
@@ -12774,23 +12775,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\50065222830\\.nuget\\packages\\": {},
+    "C:\\Users\\44994599823\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\50065222830\\source\\repos\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\44994599823\\Desktop\\Projeto inLock\\senai-backend-inlock-Alexia-Erica\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
       "projectName": "Senai.InLock.WebApi",
-      "projectPath": "C:\\Users\\50065222830\\source\\repos\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
-      "packagesPath": "C:\\Users\\50065222830\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\50065222830\\source\\repos\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\44994599823\\Desktop\\Projeto inLock\\senai-backend-inlock-Alexia-Erica\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "packagesPath": "C:\\Users\\44994599823\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\44994599823\\Desktop\\Projeto inLock\\senai-backend-inlock-Alexia-Erica\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\50065222830\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\44994599823\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12819,6 +12820,10 @@
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",

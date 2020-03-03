@@ -11,5 +11,9 @@ namespace Senai.InLock.WebApi.Interfaces
         List<JogosDomain> Listar();
 
         JogosDomain BuscarPorId(int id);
+        
+        void CadastrarJogos(JogosDomain jogo);
+
+        
     }
 }
